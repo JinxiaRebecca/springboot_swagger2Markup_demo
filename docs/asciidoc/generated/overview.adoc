@@ -1,0 +1,31 @@
+= API Document
+
+
+[[_overview]]
+== 概览
+API Document for Spring Boot 2 Project
+
+
+=== 版本信息
+[%hardbreaks]
+__版本__ : 1.0
+
+
+=== 联系方式
+[%hardbreaks]
+__名字__ : jwx697747
+__邮箱__ : jinxia1@huawei@com
+
+
+=== URI scheme
+[%hardbreaks]
+__域名__ : localhost:8080
+__基础路径__ : /
+
+
+=== 标签
+
+* example : swagger示例接口
+
+
+

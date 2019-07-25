@@ -1,0 +1,58 @@
+
+h2. 资源 {anchor:paths}
+
+h3. Example {anchor:example_resource}
+swagger示例接口
+
+
+h4. 通过userId搜索User {anchor:queryusingget}
+{noformat}
+GET /api/query/{userId}
+{noformat}
+
+
+h5. 参数
+
+||类型||名称||说明||类型||
+|*Path*|*userId*\\ \\ _必填_||userId||integer (int64)|
+
+
+h5. 响应
+
+||HTTP代码||说明||类型||
+|*200*||OK||[User|#user]|
+|*401*||Unauthorized||无内容|
+|*403*||Forbidden||无内容|
+|*404*||Not Found||无内容|
+
+
+h5. 消耗
+
+* {noformat}application/json{noformat}
+
+
+h5. 生成
+
+* {noformat}application/json{noformat}
+
+
+h5. HTTP请求示例
+
+h6. 请求 path
+{code}
+/api/query/0
+{code}
+
+
+h5. HTTP响应示例
+
+h6. 响应 200
+{code:language=json}
+{
+  "name" : "string",
+  "userId" : 0
+}
+{code}
+
+
+

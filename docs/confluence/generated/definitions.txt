@@ -1,0 +1,11 @@
+
+h2. 定义 {anchor:definitions}
+
+h3. User {anchor:user}
+
+||名称||说明||类型||
+|*name*\\ \\ _可选_||*样例* : {noformat}"string"{noformat}||string|
+|*userId*\\ \\ _可选_||*样例* : {noformat}0{noformat}||integer (int64)|
+
+
+

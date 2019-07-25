@@ -1,0 +1,18 @@
+
+[[_definitions]]
+== 定义
+
+[[_user]]
+=== User
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**name** +
+__可选__|**样例** : `"string"`|string
+|**userId** +
+__可选__|**样例** : `0`|integer (int64)
+|===
+
+
+

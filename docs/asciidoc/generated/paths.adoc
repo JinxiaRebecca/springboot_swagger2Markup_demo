@@ -1,0 +1,69 @@
+
+[[_paths]]
+== 资源
+
+[[_example_resource]]
+=== Example
+swagger示例接口
+
+
+[[_queryusingget]]
+==== 通过userId搜索User
+....
+GET /api/query/{userId}
+....
+
+
+===== 参数
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|类型|名称|说明|类型
+|**Path**|**userId** +
+__必填__|userId|integer (int64)
+|===
+
+
+===== 响应
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP代码|说明|类型
+|**200**|OK|<<_user,User>>
+|**401**|Unauthorized|无内容
+|**403**|Forbidden|无内容
+|**404**|Not Found|无内容
+|===
+
+
+===== 消耗
+
+* `application/json`
+
+
+===== 生成
+
+* `application/json`
+
+
+===== HTTP请求示例
+
+====== 请求 path
+----
+/api/query/0
+----
+
+
+===== HTTP响应示例
+
+====== 响应 200
+[source,json]
+----
+{
+  "name" : "string",
+  "userId" : 0
+}
+----
+
+
+

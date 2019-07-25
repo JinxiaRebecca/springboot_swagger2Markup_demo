@@ -1,0 +1,27 @@
+h1. API Document
+
+
+h2. 概览 {anchor:overview}
+API Document for Spring Boot 2 Project
+
+
+h3. 版本信息
+_版本_ : 1.0
+
+
+h3. 联系方式
+_名字_ : jwx697747\\ 
+_邮箱_ : jinxia1@huawei@com
+
+
+h3. URI scheme
+_域名_ : localhost:8080\\ 
+_基础路径_ : /
+
+
+h3. 标签
+
+* example : swagger示例接口
+
+
+
